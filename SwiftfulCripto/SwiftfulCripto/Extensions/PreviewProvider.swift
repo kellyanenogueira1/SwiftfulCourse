@@ -10,7 +10,7 @@ import SwiftUI
 
 class DeveloperPreview {
     static let instance = DeveloperPreview()
-    init() { }
+    private init() { }
     
     let homeVM = HomeViewModel()
     
